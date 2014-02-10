@@ -1,0 +1,18 @@
+{
+	"build_systems":
+	[
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace"
+			],
+			"path": "/Users/nakashima_koki/Build/github/selenium-example"
+		}
+	],
+	"settings":
+	{
+	}
+}
