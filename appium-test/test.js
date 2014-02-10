@@ -1,10 +1,10 @@
+/*jslint node: true */
 "use strict";
 
 /*
   run:
     node local-ios-wd-hybrid.js
 */
-
 
 var wd = require("wd");
 
@@ -16,10 +16,9 @@ chai.should();
 chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 
 var desired = {
-    //device: 'iPhone Simulator',
-    device: '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app',
+    device: 'iPhone Simulator',
     name: "Appium Hybrid App: with WD",
-    platform:'Mac',
+    platform: 'Mac',
     app: "http://appium.s3.amazonaws.com/WebViewApp6.0.app.zip",
     // version: '6.0',
     browserName: '',
